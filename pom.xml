@@ -21,6 +21,8 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+		
+		
 	</dependencies>
 	<build>
 		<pluginManagement>
@@ -30,6 +32,8 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.7.0</version>
 					<configuration>
+						<release>8</release>
+						<verbose>true</verbose>
 						<source>1.8</source>
 						<target>1.8</target>
 					</configuration>
